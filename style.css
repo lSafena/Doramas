@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Pathway+Gothic+One&display=swap');
+header{
+   background-color: rgb(217, 175, 195);
+   width: 100%;
+}
+a{
+   text-decoration: none;
+   font-size: 20px;
+   color: #fff;
+   font-family: "Bebas Neue", sans-serif;
+}
+#twitter-x-logo{ 
+   margin: 15px;
+   width: 30px;
+}
+.img1{ 
+   width: 400px;
+   border-radius: 10px;
+   margin-bottom: 15px;
+}
+h1{
+   font-size: 70px;
+   font-family:"Acme", sans-serif;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   color:rgb(191, 86, 126);
+   background-color: rgb(217, 175, 195);
+ }
+h3{
+   font-size: 30px;
+   font-family: "Bebas Neue", sans-serif;
+   color:rgb(191, 86, 126);
+   background-color: rgb(217, 175, 195);
+}
+p{
+   font-size: 18px;
+   text-align: justify;
+   color: rgb(0, 0, 0);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   align-content: center;
+   background-color: rgb(217, 175, 195);
+   font-family: "Pathway Gothic One", sans-serif;
+}
+.menu{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: rgb(217, 175, 195);
+}
+header ul{ 
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   background-color: rgb(217, 175, 195);
+}
+.main{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: rgb(217, 175, 195);
+}
+h2{
+   display: flex;
+   background-color: rgb(217, 175, 195);
+   font-family: "Bebas Neue", sans-serif;
+   font-size: 35px;
+   color:rgb(116, 70, 81);
+   margin: 15px;
+}
+.container{
+   background-color: rgb(217, 175, 195);
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   }
+   .container-fluid{
+      background-color: rgb(217, 175, 195);
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      }
+.list{
+   font-size: 18px;
+   text-align: justify;
+   color: rgb(0, 0, 0);
+   align-items: center;
+   background-color: rgb(217, 175, 195);
+   font-family: "Pathway Gothic One", sans-serif;
+}
+.boton1{
+   position: relative;
+   background-color: rgb(191, 86, 126);
+   border-radius: 5px;
+   box-shadow: rgb(116, 70, 81) 0px 4px 0px 0px;
+   padding: 8px;
+   margin: 8px;
+   background-repeat: no-repeat;
+   cursor: pointer;
+   box-sizing: border-box;
+   width: 150px;
+   height: 45px;
+   color: #fff;
+   border: none;
+   font-size: 20px;
+   font-family: "Pathway Gothic One", sans-serif;
+   transition: all 0.3s ease-in-out;
+   z-index: 1;
+   overflow: hidden;
+ }
+ .boton1::before{
+   content: "";
+   background-color: rgb(216, 139, 175);
+   width: 0;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   transition: width 700ms ease-in-out;
+   display: inline-block;
+ }
+ 
+ .boton1:hover::before{
+   width: 100%;
+ }
+
+ .carousel{
+   margin-bottom: 0px;
+   margin-top: 0px;
+ }
+ h4{
+   font-size: 50px;
+   font-family:"Acme", sans-serif;
+   color:white;
+}
+footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(218, 197, 206);
+      margin: 30px;
+}
+body{
+   background-color: rgb(218, 197, 206);}
+
